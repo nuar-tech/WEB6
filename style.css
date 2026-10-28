@@ -1,0 +1,23 @@
+body{font-family:system-ui,sans-serif;background:#e8f1f8;margin:0;padding:16px}
+h1{text-align:center;margin:0 0 10px;color:#4a2f20}
+#controls{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-bottom:8px}
+#controls button,.sortbtn,.mv{cursor:pointer;border:1px solid #4a2f20;background:#fff;border-radius:6px;padding:4px 9px;font-size:13px}
+#controls button:hover,.sortbtn:hover,.mv:hover{background:#ffe9a8}
+#result{text-align:center;min-height:24px;margin-bottom:10px;font-weight:600}
+#house{max-width:1100px;margin:auto;border:6px solid #5b3a29;background:#fff}
+.floor{display:flex;border-bottom:4px solid #5b3a29}
+.floor:last-child{border-bottom:0}
+.flabel{writing-mode:vertical-rl;transform:rotate(180deg);background:#e6d3b8;padding:6px;font-weight:700;letter-spacing:3px;font-size:12px}
+.room{flex:1;min-height:150px;padding:6px 10px;border-left:3px solid #5b3a29}
+#balcony{background:#dcebf7}#hall{background:#fbf0dc}#kitchen{background:#f3f7e9}#living{background:#fff7ee}
+.room h3{margin:0 0 6px;font-size:15px}
+.guests{display:flex;flex-wrap:wrap}
+.guest{position:relative;flex-shrink:0;width:68px;margin:0 2px;padding:4px;text-align:center;font-size:11px;border-radius:8px;cursor:pointer}
+.av{position:relative;width:48px;height:48px;margin:0 auto}
+.ring{width:42px;height:42px;border-radius:50%;border:3px solid #999;background:#fff}
+.c-green .ring{border-color:#2e9e5b}.c-black .ring{border-color:#222}.c-yellow .ring{border-color:#e8a812}
+.c-purple .ring{border-color:#8a4fc7}.c-red .ring{border-color:#d9434f}.c-blue .ring{border-color:#2f6fd6}
+.badge{position:absolute;top:-4px;right:-2px;width:16px;height:16px;line-height:16px;border-radius:50%;background:#1e56a0;font-size:9px}
+.nm{font-weight:700}.tm{color:#555}.thing{font-size:12px}
+.guest.found{background:#fff2a8;box-shadow:0 0 0 2px #f5a623}
+.room.found{outline:4px solid #f5a623;outline-offset:-4px}
